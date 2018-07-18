@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Phone Book</title>
+</head>
+<body>
+  <table>
+    {{#each users_info}}
+    <tr>
+      <td>
+      {{name}}
+      </td>
+      <td>
+        {{phone}}
+      </td>
+    </tr>
+    {{/each}}
+  </table>
+  <a href="/submit"> ADD NEW USER</a>
+</body>
+</html>
